@@ -1,0 +1,86 @@
+{
+// Терминал
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.tabs.location": "left",
+    
+// Отладка
+    "debug.inlineValues": "on",
+    "debug.autoExpandLazyVariables": true,
+    
+// Редактор
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "window.commandCenter": false,
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 15,
+    "window.zoomLevel": -1,
+    "editor.fontFamily": "JetBrains Mono Medium",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "off",
+    "files.associations": {
+        "*.html": "html",
+        "*.css": "css",
+        "css": "css",
+        "fonts": "css"
+    },
+    
+// Обновления
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+
+// Профиль   
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+
+// Git
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    "git.autoRepositoryDetection": "subFolders",
+
+// Python, djanfo, pylance
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "usr/bin/python3",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.diagnosticSeverityOverrides": {
+    },
+    "python.analysis.addImport.exactMatchOnly": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "django",
+            "depth": 3,
+            "includeAllSymbols": true
+        }
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "breadcrumbs.enabled": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFoldingRangeProvider": "ms-python.black-formatter",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
